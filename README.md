@@ -20,6 +20,6 @@ A simple Python project for analyzing health data and predicting health risk lev
 - Blood Pressure (BP)
 
 ## Health Prediction Categories
--🟢 Healthy
--🟠 Moderate Risk
--🔴 High Risk
+- 🟢 Healthy
+- 🟠 Moderate Risk
+- 🔴 High Risk
