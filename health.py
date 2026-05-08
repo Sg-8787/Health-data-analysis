@@ -54,15 +54,15 @@ plt.show()
 #health risk prediction function
 def health_risk(age, bmi, sugar, bp):
     if sugar > 180 or bp > 160:
-        return "🔴 High Risk"
+     return "🔴 High Risk"
     elif sugar > 140 or bp > 140 or bmi > 30:
-        return "🟠 Moderate Risk"
+     return "🟠 Moderate Risk"
     else:
-        return "🟢 Healthy"
+     return "🟢 Healthy"
 
 #health prediction 
 print("\n🧠 Health Predictions:\n")
 
 for i in range(len(df)):
-    result = health_risk(df["Age"][i], df["BMI"][i], df["Sugar"][i], df["BP"][i])
-    print(f"Person {i+1}: {result}")
+result = health_risk(df["Age"][i], df["BMI"][i], df["Sugar"][i], df["BP"][i])
+print(f"Person {i+1}: {result}")
